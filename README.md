@@ -7,16 +7,16 @@ mkdir build
 cd build
 cmake -G "Visual Studio 17 2022" ..
 
-#nbody linux
+# nbody linux
 nbody C windows
 mkdir build
 cmake ..
 make
 
-#python
+# python
 python NBody.py
 
-#Cython
+# Cython
 python setup.py build_ext --inplace
 
 # Taichi lang
